@@ -8,3 +8,8 @@ Real-time computer vision system that automates the tracking of physical exercis
 2. **Range of Motion Issues**: Most fitness apps count reps without verifying if the user has completed the full range of motion (e.g., partial bicep curls).
 
 3. **Missing Data**: Many users workout without capturing session-specific metrics like rep speed or consistency over time.
+   
+# Objective
+1. To ensure "Full Range of Motion" compliance using geometric joint angle thresholds.
+
+2. To provide a persistent data logging system for tracking long-term fitness progress.
