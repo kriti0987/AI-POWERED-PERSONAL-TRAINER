@@ -56,6 +56,6 @@ A Pre-trained Model (MediaPipe Pose) is used for detection
 # Outcome
 1. 98% Accurate, successfully distinguishes between a full rep and a partial "cheat" rep.
 
-2. Actionable Analytics: Users receive a post-workout summary that quantifies their effort.
+2. Receive a post-workout summary that quantifies their effort.
 
-3. Persistent Progress: The automatic CSV logging enables users to perform their own data analysis on their workout habits over weeks or months.
+3. The automatic CSV logging enables users to perform their own data analysis on their workout habits over weeks or months.
