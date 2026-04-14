@@ -1,6 +1,6 @@
 # AI-POWERED-PERSONAL-TRAINER
 
-Real-time computer vision system that automates the tracking of physical exercises, utilizing Human Pose Estimation (HPE), the tool monitors specific joint movements to count repetitions accurately while providing a "Heads-Up Display" (HUD) for immediate user feedback. It concludes every session with a performance summary dashboard, bridging the gap between raw data and actionable fitness insights.
+Real-time computer vision system that automates the tracking of physical exercises, utilizing Human Pose Estimation (HPE), the tool monitors specific joint movements to count repetitions accurately, concludes every session with a performance summary dashboard, bridging the gap between raw data and actionable fitness insights.
 
 # The Problem
 1. **Lack of Accuracy**: Manual rep counting is prone to human error, especially during high-intensity training.
@@ -11,16 +11,16 @@ Real-time computer vision system that automates the tracking of physical exercis
    
 # Objective
 1. To ensure "Full Range of Motion" compliance using geometric joint angle thresholds.
-
 2. To provide a persistent data logging system for tracking long-term fitness progress.
 
 # Key Features
-1. Real-time Pose Estimation: Utilizes MediaPipe to track 33 body landmarks at high frame rates.
-2. Dynamic Angle Calculation: Uses NumPy and trigonometric algorithms to monitor joint movement with high precision.
-3. Smart Rep Counter: Logic-based state machine that distinguishes between "Up" and "Down" phases to prevent false counts.
-4. Live HUD (Heads-Up Display): A custom-designed UI that displays real-time reps, exercise stage, and joint angles.
-5. Post-Workout Analytics: Generates a "Summary Dashboard" upon exit, showing total reps, average speed, and form accuracy.
-6. Data Persistence: Automatically logs workout sessions to a local workout_log.csv file with timestamps.
+1. Utilizes MediaPipe to track 33 body landmarks at high frame rates.
+2.Uses NumPy and trigonometric algorithms to monitor joint movement with high precision.
+3. Displays real-time reps, exercise stage, and joint angles.
+4. Post-Workout Analytics: Generates a "Summary Dashboard" upon exit, showing total reps, average speed, and form accuracy.
+
+# Demo
+![Image](https://github.com/user-attachments/assets/d5b5c125-e992-4992-8814-4f3a9d08841d)
 
 # Tech Stack
 1. Language: Python
