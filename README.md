@@ -56,6 +56,8 @@ A Pre-trained Model (MediaPipe Pose) is used for detection
 # Outcome
 <img width="1200" height="600" alt="Image" src="https://github.com/user-attachments/assets/6ef43dc9-95fe-4b51-b272-2a9f2bbe27cf" />
 <img width="629" height="506" alt="Image" src="https://github.com/user-attachments/assets/e5041211-de27-4c0c-8497-fd0e2ace51bb" />
+
+
 1. 98% Accurate, successfully distinguishes between a full repetition and a partial "cheat" repetition.
 
 2. Receive a post-workout summary that quantifies their effort.
