@@ -34,10 +34,10 @@ A Pre-trained Model (MediaPipe Pose) is used for detection
 
 # Procedure
 1. Importing a specialized stack designed for real-time computer vision and data science:
-   OpenCV (cv2): Handles the core video stream acquisition and UI rendering.
-   MediaPipe: Provides the BlazePose neural network for high-fidelity 3D human body tracking.
-   NumPy: Powers the vectorized mathematical operations required for joint angle calculations.
-   CSV & Datetime: Manages the persistent storage and time-stamping of workout history.
+   1. OpenCV (cv2): Handles the core video stream acquisition and UI rendering.
+   2. MediaPipe: Provides the BlazePose neural network for high-fidelity 3D human body tracking.
+   3. NumPy: Powers the vectorized mathematical operations required for joint angle calculations.
+   4. CSV & Datetime: Manages the persistent storage and time-stamping of workout history.
    
 2. Raw frames are converted from BGR to RGB to satisfy the MediaPipe model's input requirements.
 3. The image.flags.writeable property is toggled to False during processing. This prevents Python from making unnecessary copies of the image data, significantly reducing CPU overhead and maintaining a high frame rate.
